@@ -1,4 +1,5 @@
 import React from 'react'
+import TweetBox from "./TweetBox"
 import './Feed.css'
 
 export default function Feed() {
@@ -10,6 +11,8 @@ export default function Feed() {
             </div>
 
             {/* TweetBox */}
+            <TweetBox />
+            
 
             {/* Post */}
             {/* Post */}

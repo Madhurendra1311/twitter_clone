@@ -5,7 +5,7 @@ import Widgets from "./Component/Widgets";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       {/* <h1>Let's build a Twitter Clone</h1> */}
 
       {/* Sidebar */}

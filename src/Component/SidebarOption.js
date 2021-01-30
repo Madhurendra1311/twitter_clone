@@ -3,9 +3,9 @@ import "./SidebarOption.css"
 
 function SidebarOption({ active, text, Icon }) {
     return (
-        <div className={`sidebarOption ${active && ""}`}>
+        <div className={`sidebarOption ${active && "sidebarOption--active"}`}>
             <Icon/>
-            <h2>This is an option</h2>
+            <h2>{text}</h2>
         </div>
     )
 }
